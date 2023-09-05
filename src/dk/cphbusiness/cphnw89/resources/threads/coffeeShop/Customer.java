@@ -1,4 +1,4 @@
-package dk.cphbusiness.cphnw89.datastructures.threads.coffeeShop;
+package dk.cphbusiness.cphnw89.resources.threads.coffeeShop;
 
 public class Customer implements Runnable{
     private CoffeeShop coffeeShop;

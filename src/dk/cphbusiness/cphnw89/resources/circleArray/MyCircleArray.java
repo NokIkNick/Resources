@@ -1,4 +1,4 @@
-package dk.cphbusiness.cphnw89.datastructures.circleArray;
+package dk.cphbusiness.cphnw89.resources.circleArray;
 
 import java.util.NoSuchElementException;
 

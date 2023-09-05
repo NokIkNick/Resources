@@ -1,4 +1,4 @@
-package dk.cphbusiness.cphnw89.datastructures.arrayList;
+package dk.cphbusiness.cphnw89.resources.arrayList;
 
 public class MyArrayList<E> {
 

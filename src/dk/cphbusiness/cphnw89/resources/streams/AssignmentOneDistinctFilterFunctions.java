@@ -1,11 +1,9 @@
-package dk.cphbusiness.cphnw89.datastructures.streams;
+package dk.cphbusiness.cphnw89.resources.streams;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class AssignmentOne {
+public class AssignmentOneDistinctFilterFunctions {
     //Tag liste af navne, og filter og collect alle navnene der indeholder et lille "e".
     public static void main(String[] args) {
         List<String> allNames = new ArrayList<>(); //Stream names = Stream.of("navne"); Is the same.

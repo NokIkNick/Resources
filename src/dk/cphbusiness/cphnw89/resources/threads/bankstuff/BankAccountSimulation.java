@@ -1,4 +1,4 @@
-package dk.cphbusiness.cphnw89.datastructures.threads.bankstuff;
+package dk.cphbusiness.cphnw89.resources.threads.bankstuff;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;

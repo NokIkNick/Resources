@@ -1,6 +1,4 @@
-package dk.cphbusiness.cphnw89.datastructures.circleArray;
-
-import javax.lang.model.element.Element;
+package dk.cphbusiness.cphnw89.resources.circleArray;
 
 public class Main {
     public static void main(String[] args){

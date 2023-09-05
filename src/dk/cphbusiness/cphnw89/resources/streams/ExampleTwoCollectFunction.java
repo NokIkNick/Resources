@@ -1,10 +1,10 @@
-package dk.cphbusiness.cphnw89.datastructures.streams;
+package dk.cphbusiness.cphnw89.resources.streams;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ExampleTwo {
+public class ExampleTwoCollectFunction {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("One");

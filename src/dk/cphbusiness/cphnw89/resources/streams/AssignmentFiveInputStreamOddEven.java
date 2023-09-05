@@ -1,11 +1,11 @@
-package dk.cphbusiness.cphnw89.datastructures.streams;
+package dk.cphbusiness.cphnw89.resources.streams;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class AssignmentFive {
+public class AssignmentFiveInputStreamOddEven {
     public static void main(String[] args) {
         Stream<String> inStream = new BufferedReader(new InputStreamReader(System.in)).lines();
         List<String> out = inStream.filter(s-> isInt(s)? Integer.parseInt(s) % 2 == 1: false).limit(5).toList();

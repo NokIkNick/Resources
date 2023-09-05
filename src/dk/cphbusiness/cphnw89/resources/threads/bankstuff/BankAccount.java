@@ -1,4 +1,4 @@
-package dk.cphbusiness.cphnw89.datastructures.threads.bankstuff;
+package dk.cphbusiness.cphnw89.resources.threads.bankstuff;
 
 public class BankAccount {
 

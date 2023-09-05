@@ -1,10 +1,9 @@
-package dk.cphbusiness.cphnw89.datastructures.streams;
+package dk.cphbusiness.cphnw89.resources.streams;
 
-import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
-public class AssignmentThree {
+public class AssignmentThreeMappingOddEven {
     public static void main(String[] args) {
 
         //CONVERT TO LIST AFTER
