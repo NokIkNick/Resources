@@ -35,7 +35,7 @@ public class ShakespearInator {
                             .toUpperCase()
                             .trim()
                             .split(" ")))
-                    .distinct().
+                    .distinct().parallel().
                     sorted(); //Every line of text becomes an element of the stream.
             List<String> words = streamOfLines.toList();
             words.forEach(System.out::println);
