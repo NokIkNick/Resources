@@ -14,7 +14,7 @@ public class Test {
         root.insert("Yo my g");
 
         System.out.println(root.lookUp("Hej"));
-        System.out.println(root.getBestEnding("He"));
+        System.out.println(root.getBestEnding(""));
 
     }
 }
