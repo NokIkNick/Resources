@@ -1,6 +1,8 @@
 package dk.cphbusiness.cphnw89.resources.testEnvironment;
 
 import java.util.Arrays;
+import java.util.Dictionary;
+import java.util.Hashtable;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class Main {
 
         long number = 54321;
         System.out.println(Arrays.toString(digitize(number)));
+
     }
 
     public static String solution(String str){
