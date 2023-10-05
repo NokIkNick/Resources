@@ -1,0 +1,93 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:hidden;
+    overflow-y: hidden;
+
+}
+
+.LoginForm{
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    min-font-size: 0.5vw;
+    max-font-size: 1vw;
+
+
+}
+
+.TasksPanel{
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    min-font-size: 0.5vw;
+    max-font-size: 1vw;
+    margin-left:auto;
+    margin-right:auto;
+    width:30vh;
+
+
+}
+
+#logo{
+    max-width:60%;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:1rem;
+
+}
+
+input[type="text"]{
+    min-font-size: 0.5vw;
+    max-font-size: 1vw;
+}
+
+
+
+.Wrapper{
+    border: 0.4rem solid black; /* Change the border width and color as per your preference */
+    width: calc(100% - 20px); /* Adjust this value according to your border and margin size */
+    height: calc(100% - 20px);/* Adjust this value according to your border and margin size */
+    border-radius: 0.3rem;
+}
+
+tr{
+    padding-right: 1em;
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+}
+
+th{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}
+
+#createAccount{
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+    .TasksPanel{
+        justify-content: center;
+        text-align: left;
+        padding: 4rem;
+        min-font-size: 0.5vw;
+        max-font-size: 1vw;
+        width:100%
+
+    }
+}
